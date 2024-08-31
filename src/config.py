@@ -63,5 +63,5 @@ params = {
 count = {
     "every_for_animation": 100,
     "every_for_csv_save": 25,
-    "end_time_for_one_target_data": 2
+    "end_time_for_one_target_data": 50
 }

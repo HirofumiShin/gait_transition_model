@@ -40,13 +40,21 @@ $ sudo python3 -m pip install -U pip
 $ pip3 install numpy matplotlib
 ```
 
+## Setup
+```bash
+$ git clone git@github.com:HirofumiShin/gait_transition_model.git
+$ cd gait_transition_model
+$ mkdir data
+```
+
+
 ## Making Simulation Data and Paper Graphs
 ```bash
 $ python3 simulate_and_make_data.py --mode low-to-high
 $ python3 simulate_and_make_data.py --mode high-to-low
 ```
-Running both scripts generates data for Figures 4 and 6.  
-Then, `make_figure_energy.ipynb` analyzes the data and creates graphs for these figures.
+Running both scripts generates data for Figures 5, 7 and 8.  
+Then, `analysis/analysis_gait_transition.ipynb` and `analysis/analysis_stability.ipynb` analysis the data and creates graphs for these figures.
 
 ## Making a Supplementary Video
 ```bash
